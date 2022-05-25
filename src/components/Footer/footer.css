@@ -1,0 +1,35 @@
+footer {
+    text-align: center;
+    margin-top: 7rem;
+    background: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    padding: 3rem 0;
+}
+
+footer a {
+    color: var(--color-bg);
+    font-size: 0.95rem;
+}
+
+.footer__logo {
+    font-weight: 500;
+    font-size: 2rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+.permalinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin: 0 auto 3rem;
+}
+
+
+@media screen and (max-width:600px) {
+    .permalinks{
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
